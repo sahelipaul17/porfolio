@@ -1,0 +1,13 @@
+{
+    "name": "portfolio",
+    "private": true,
+    "scripts": {
+      "dev": "concurrently \"yarn start-backend\" \"yarn start-frontend\"",
+      "start-backend": "cd backend && ./venv/bin/uvicorn server:app --reload --host 0.0.0.0 --port 8000",
+      "start-frontend": "cd frontend && yarn start"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.2"
+    }
+  }
+  
