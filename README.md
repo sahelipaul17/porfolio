@@ -13,6 +13,8 @@ Styling & Animations → TailwindCSS, Tailwind Animate, Framer Motion
 UI Components → Radix UI, ShadCN
 
 # 📂 Project Structure
+
+
 porfolio/
 │── backend/                 # FastAPI backend
 │   ├── server.py            # FastAPI app entry
@@ -39,6 +41,8 @@ porfolio/
 │── LICENSE
 │── package.json             # Root package.json (concurrently setup)
 │── README.md
+
+
 
 # ⚙️ Setup & Run
 🔧 Backend (FastAPI)
